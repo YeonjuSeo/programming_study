@@ -1,0 +1,17 @@
+{
+  "name": "ts-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "description": "",
+  "dependencies": {
+    "typescript": "4.1.2",
+    "yarn": "1.22.10"
+  }
+}
