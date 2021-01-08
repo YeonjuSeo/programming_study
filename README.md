@@ -1,6 +1,7 @@
 # Awesome Weather App
-- **This application gets your location by API and shows weather around you with awesome icon and texts**<br/>
+- **This application gets your location by API and shows weather around you with awesome icon and texts**
 - Learning React Native by Building a Awesome Weather App ( 21.01.08 ~ 21.01.09 )
+<!-- - See my App in Expo! : https://expo.io/@/projects/awesome_weather. -->
 
 ## Output
 
