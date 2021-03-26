@@ -1,14 +1,13 @@
 import React from "react";
 import { connect } from "react-redux";
-import { actionCreators } from "../store";
+import { remove } from "../store";
 import { Link } from "react-router-dom";
 
 function ToDo({ text, onBtnClick, id }) {
   return (
     <li>
-      <Link to={`./${id}`}>
-        {text} <button onClick={onBtnClick}>DEL</button>
-      </Link>
+      <Link to={`./${id}`}>{text}</Link>
+      <button onClick={onBtnClick}>DEL</button>
     </li>
   );
 }
@@ -16,7 +15,7 @@ function ToDo({ text, onBtnClick, id }) {
 function mapDispatchToProps(dispatch, ownProps) {
   //ownProps 객체에는 현재 text와 id가 들어있다.
   return {
-    onBtnClick: () => dispatch(actionCreators.deleteToDo(ownProps.id)),
+    onBtnClick: () => dispatch(remove(ownProps.id)),
   };
 }
 
